@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    style="@style/MyToolbar"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/background_toolbar_shap">
+
+        <RelativeLayout
+            android:id="@+id/rl_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/MyToolbar_title"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_shopping"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:src="@drawable/shopping" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small"
+                android:layout_toRightOf="@id/iv_shopping"
+                android:text="@string/basket_lounge"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_xlarge"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

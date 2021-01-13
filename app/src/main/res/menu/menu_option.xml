@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_whishlist_new"
+        android:id="@+id/action_whishlist"
+        app:actionLayout="@layout/custom_bottom_item_layout_whishlist"
+        android:title="Whish List"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:icon="@drawable/ic_main_shopping_cart"
+        android:id="@+id/action_cart"
+        app:actionLayout="@layout/custom_bottom_item_layout"
+        android:title="Cart List"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+
+
+</menu>

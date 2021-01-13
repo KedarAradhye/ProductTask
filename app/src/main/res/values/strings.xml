@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProductTask</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="basket_lounge">Basket Lounge</string>
+    <string name="search">Search</string>
+    <string name="masala">Masala/Spices</string>
+    <string name="product_name">Good Life Dalchini 200 g</string>
+    <string name="in_stock">In Stock</string>
+    <string name="price">100</string>
+    <string name="inclues_of_taxes">(Incl all taxes)</string>
+    <string name="rs_amount_strick">120</string>
+    <string name="you_save">You save Rs 20</string>
+    <string name="add">Add</string>
+    <string name="description">Description</string>
+    <string name="description_name">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lacus enim, volutpat ac pulvinar eget, suscipit vel mi. Integer vulputate, lorem quis mollis porttitor, eros nunc accumsan justo, non iaculis mauris eros eu turpis. Maecenas velit dolor, vehicula a enim sed, suscipit convallis orci. In hac habitasse platea dictumst. "</string>
+    <string name="see_more">see more</string>
+    <string name="offers">Offers</string>
+    <string name="offer1">Debit/Credit card Offers</string>
+    <string name="product_info">Product Info</string>
+    <string name="brand">Brand</string>
+    <string name="item1">XYZ</string>
+    <string name="manufactur">Manufacturer</string>
+    <string name="ingradient">Ingredient Type</string>
+    <string name="bought_together">Bought Together</string>
+    <string name="see_all">Show All 20 Items</string>
+    <string name="what_customer_says">What Customer Says</string>
+    <string name="see_alll">See All</string>
+    <string name="ajay_singh">Ajay Singh</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="offer_percent">20% off</string>
+    <string name="price_new">400</string>
+    <string name="price_discount">500</string>
+    <string name="view_all_categories"><![CDATA[View All Categories >]]></string>
+    <string name="search_products">Search Products, Brands and more</string>
+</resources>
