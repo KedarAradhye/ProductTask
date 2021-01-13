@@ -20,18 +20,6 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class AllFragment extends Fragment {
-    
-    private ViewPager viewPager;
-    private int[] urls = new int[]{
-            R.drawable.shopping,
-            R.drawable.shopping_images,
-            R.drawable.download1,
-            R.drawable.download2
-
-    };
-    private static int NUM_PAGES = 0;
-    private static int currentPage = 0;
-
 
     @Nullable
     @Override
@@ -47,53 +35,10 @@ public class AllFragment extends Fragment {
     }
 
     private void setViews() {
-        viewPager.setAdapter(new SlidingImage_Adapter(getActivity(), urls));
-        TabLayout tabLayout = (TabLayout) getView().findViewById(R.id.tab_layout);
-        tabLayout.setupWithViewPager(viewPager, true);
 
-        NUM_PAGES = urls.length;
-
-        // Auto start of viewpager
-        final Handler handler = new Handler();
-        final Runnable Update = new Runnable() {
-            public void run() {
-                if (currentPage == NUM_PAGES) {
-                    currentPage = 0;
-                }
-                viewPager.setCurrentItem(currentPage++, true);
-            }
-        };
-        Timer swipeTimer = new Timer();
-        swipeTimer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                handler.post(Update);
-            }
-        }, 3000, 3000);
-
-        // Pager listener over indicator
-        viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-
-            @Override
-            public void onPageSelected(int position) {
-                currentPage = position;
-
-            }
-
-            @Override
-            public void onPageScrolled(int pos, float arg1, int arg2) {
-
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int pos) {
-
-            }
-        });
     }
 
     private void initViews(View view) {
-        viewPager = view.findViewById(R.id.pager);
     }
 
     @Override
